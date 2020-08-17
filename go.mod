@@ -3,6 +3,7 @@ module github.com/morganc3/dns
 go 1.12
 
 require (
+	github.com/morganc3/dns v1.1.31
 	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550
 	golang.org/x/net v0.0.0-20190923162816-aa69164e4478
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
