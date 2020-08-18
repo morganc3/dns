@@ -1,4 +1,4 @@
-module github.com/morganc3/dns
+module github.com/morganc3/dns/v1
 
 go 1.12
 
