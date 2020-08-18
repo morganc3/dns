@@ -1,4 +1,4 @@
-module github.com/morganc3/dns/v1
+module github.com/morganc3/dns
 
 go 1.12
 
@@ -9,3 +9,5 @@ require (
 	golang.org/x/sys v0.0.0-20190924154521-2837fb4f24fe
 	golang.org/x/tools v0.0.0-20191216052735-49a3e744a425 // indirect
 )
+
+replace github.com/miekg/dns =>  github.com/morganc3/dns v1.1.35
