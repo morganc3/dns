@@ -273,7 +273,7 @@ func (rr *CNAME) String() string { return rr.Hdr.String() + sprintName(rr.Target
 
 type ALIAS struct {
 	Hdr    RR_Header
-	Target string `dns:"cdomain-name"`
+	Target string `dns:"domain-name"`
 }
 
 func (rr *ALIAS) String() string {
