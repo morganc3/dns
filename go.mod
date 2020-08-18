@@ -10,4 +10,4 @@ require (
 	golang.org/x/tools v0.0.0-20191216052735-49a3e744a425 // indirect
 )
 
-replace github.com/miekg/dns =>  github.com/morganc3/dns v1.1.35
+replace github.com/miekg/dns =>  github.com/morganc3/dns v1.1.36
